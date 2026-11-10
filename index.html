@@ -1,0 +1,1115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Y-ENERGY — Premium Solar Energy Solutions in the Philippines</title>
+<meta name="description" content="Y-ENERGY GIG-ASIA INC. designs, installs, and maintains premium solar energy systems for homes, businesses, and industrial facilities across the Philippines." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --navy:#0b1f3a;
+  --navy2:#0f2942;
+  --slate950:#020617;
+  --slate900:#0f172a;
+  --slate800:#1e293b;
+  --slate700:#334155;
+  --slate600:#475569;
+  --slate500:#64748b;
+  --slate400:#94a3b8;
+  --slate300:#cbd5e1;
+  --slate200:#e2e8f0;
+  --slate100:#f1f5f9;
+  --slate50:#f8fafc;
+  --amber400:#fbbf24;
+  --amber500:#f59e0b;
+  --amber600:#d97706;
+  --white:#ffffff;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',system-ui,-apple-system,sans-serif;background:var(--slate950);color:var(--slate700);line-height:1.6;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.section{padding:96px 0}
+@media(min-width:1024px){.section{padding:128px 0}}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.2em;color:var(--amber500);margin-bottom:16px}
+.eyebrow::before{content:"";height:1px;width:32px;background:currentColor;opacity:.5}
+.eyebrow-center{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.2em;color:var(--amber400);margin-bottom:16px}
+.eyebrow-center::before,.eyebrow-center::after{content:"";height:1px;width:32px;background:currentColor;opacity:.5}
+h2.title{font-size:clamp(30px,5vw,48px);font-weight:700;color:var(--white);line-height:1.15}
+h2.title-dark{font-size:clamp(30px,5vw,48px);font-weight:700;color:var(--slate900);line-height:1.15}
+.lead{font-size:18px;color:var(--slate600);margin-top:20px;max-width:640px}
+.lead-light{font-size:18px;color:var(--slate400);margin-top:20px;max-width:640px}
+
+/* HEADER */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:all .3s;padding:20px 0}
+header.scrolled{background:rgba(2,6,17,.9);backdrop-filter:blur(12px);padding:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+header .container{display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-icon{width:40px;height:40px;border-radius:12px;object-fit:cover;box-shadow:0 4px 12px rgba(245,158,11,.3)}
+.logo-text{font-size:20px;font-weight:800;color:#fff;letter-spacing:-.02em}
+nav.links{display:flex;align-items:center;gap:4px}
+nav.links a{padding:8px 16px;font-size:14px;font-weight:500;border-radius:8px;color:rgba(255,255,255,.9);transition:color .2s}
+nav.links a:hover{color:var(--amber400)}
+.btn-quote{margin-left:8px;padding:10px 24px;font-size:14px;font-weight:600;border-radius:8px;background:var(--amber500);color:#fff;border:none;cursor:pointer;box-shadow:0 4px 12px rgba(245,158,11,.3);transition:background .2s}
+.btn-quote:hover{background:var(--amber600)}
+.menu-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;cursor:pointer}
+.mobile-menu{display:none;position:absolute;top:100%;left:0;right:0;background:var(--slate950);padding:16px;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.mobile-menu a{display:block;padding:12px 16px;font-size:14px;font-weight:500;color:var(--slate300);border-radius:8px}
+.mobile-menu a:hover{background:rgba(255,255,255,.05);color:var(--amber400)}
+@media(max-width:1023px){
+  nav.links{display:none}
+  .menu-toggle{display:block}
+  .mobile-menu.open{display:block}
+}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:var(--slate950)}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(2,6,17,.85),rgba(2,6,17,.55),rgba(2,6,17,.2))}
+.hero-overlay2{position:absolute;inset:0;background:linear-gradient(to top,rgba(2,6,17,.7),transparent,rgba(2,6,17,.2))}
+.hero-content{position:relative;z-index:10;max-width:720px;padding-top:112px;padding-bottom:80px}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;background:rgba(245,158,11,.2);border:1px solid rgba(251,191,36,.3);color:var(--amber400);font-size:14px;font-weight:600;margin-bottom:24px}
+.hero h1{font-size:clamp(36px,7vw,72px);font-weight:700;color:#fff;line-height:1.08;text-shadow:0 2px 16px rgba(0,0,0,.65)}
+.hero p.sub{margin-top:24px;font-size:clamp(18px,2vw,20px);color:var(--slate100);max-width:640px;text-shadow:0 1px 8px rgba(0,0,0,.7)}
+.hero-btns{display:flex;flex-wrap:wrap;gap:16px;margin-top:40px}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;padding:16px 32px;border-radius:12px;background:var(--amber500);color:#fff;font-weight:600;border:none;cursor:pointer;font-size:16px;box-shadow:0 8px 24px rgba(245,158,11,.3);transition:all .2s;font-family:inherit}
+.btn-primary:hover{background:var(--amber600);transform:scale(1.05)}
+.btn-outline{padding:16px 32px;border-radius:12px;border:2px solid rgba(255,255,255,.4);color:#fff;font-weight:600;background:rgba(255,255,255,.05);backdrop-filter:blur(4px);cursor:pointer;font-size:16px;transition:background .2s;font-family:inherit}
+.btn-outline:hover{background:rgba(255,255,255,.1)}
+
+/* ABOUT */
+.about{background:var(--slate950);padding:96px 0}
+@media(min-width:1024px){.about{padding:128px 0}}
+.about .grid{display:grid;gap:48px;align-items:center}
+@media(min-width:1024px){.about .grid{grid-template-columns:1fr 1fr;gap:80px}}
+.about-img-wrap{position:relative}
+.about-img-wrap img{width:100%;height:520px;border-radius:16px;object-fit:cover;box-shadow:0 20px 40px rgba(0,0,0,.2)}
+@media(min-width:1024px){.about-img-wrap img{height:620px}}
+.about-badge{position:absolute;bottom:-24px;right:-16px;background:var(--amber500);color:#fff;padding:16px 24px;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,.2)}
+.about-badge .num{font-size:30px;font-weight:700;line-height:1}
+.about-badge .lbl{font-size:14px;font-weight:500;margin-top:4px}
+.about-text h2{font-size:clamp(30px,5vw,48px);font-weight:700;color:#fff;line-height:1.15;margin-bottom:16px}
+.about-text .sub2{font-size:18px;font-weight:600;color:var(--amber400);margin-bottom:24px}
+.about-text p{font-size:18px;color:var(--slate400);margin-bottom:24px;line-height:1.7}
+.about-text p:last-of-type{font-size:16px}
+.about-points{margin-top:32px;display:flex;flex-direction:column;gap:12px}
+.about-points .pt{display:flex;align-items:center;gap:12px;color:var(--slate300);font-weight:500}
+.about-points .pt::before{content:"✓";color:var(--amber500);font-size:20px;font-weight:700}
+
+/* PRODUCTS */
+.products{background:var(--slate950);padding:96px 0}
+@media(min-width:1024px){.products{padding:128px 0}}
+.products .grid{display:grid;gap:32px;margin-top:64px}
+@media(min-width:768px){.products .grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1024px){.products .grid{grid-template-columns:1fr 1fr 1fr;gap:40px}}
+.product-card{background:rgba(30,41,59,.5);border-radius:16px;padding:32px;border:1px solid rgba(255,255,255,.1);transition:all .3s}
+.product-card:hover{box-shadow:0 20px 40px rgba(0,0,0,.1);transform:translateY(-4px)}
+.product-card h3{font-size:24px;font-weight:700;color:#fff;margin-bottom:12px}
+.product-card p{color:var(--slate400);line-height:1.6}
+.brands{margin-top:64px;text-align:center}
+.brands .row{display:flex;flex-wrap:wrap;justify-content:center;gap:32px;margin-top:32px}
+.brand-box{width:144px;height:80px;display:flex;align-items:center;justify-content:center;background:rgba(30,41,59,.5);border-radius:12px;border:1px solid rgba(255,255,255,.1);font-size:18px;font-weight:700;color:var(--slate400)}
+
+/* PROJECTS */
+.projects{background:var(--slate900);padding:96px 0}
+@media(min-width:1024px){.projects{padding:128px 0}}
+.project-totals{display:flex;flex-wrap:wrap;gap:24px;margin:40px 0}
+.total-card{display:flex;align-items:center;gap:12px;padding:16px 24px;border-radius:16px;background:var(--slate800);border:1px solid rgba(255,255,255,.1)}
+.total-card .num{font-size:28px;font-weight:700;color:#fff;line-height:1}
+.total-card .lbl{font-size:12px;font-weight:500;color:var(--slate400);margin-top:4px}
+.total-card .icon{font-size:28px;color:var(--amber500)}
+.slider{position:relative;border-radius:16px;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.2)}
+.slider-track{position:relative;height:460px}
+@media(min-width:1024px){.slider-track{height:560px}}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .7s}
+.slide.active{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover}
+.slide-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(2,6,17,.9),rgba(2,6,17,.2),transparent)}
+.slide-info{position:absolute;bottom:0;left:0;right:0;padding:40px}
+.slide-info .loc{display:flex;align-items:center;gap:8px;color:var(--amber400);font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}
+.slide-info h3{font-size:clamp(24px,4vw,36px);font-weight:700;color:#fff;margin-bottom:12px;max-width:640px}
+.slide-info p.desc{font-size:18px;color:var(--slate200);max-width:640px;margin-bottom:16px;line-height:1.6}
+.slide-info .sys{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);font-size:14px;font-weight:600;color:#fff}
+.slide-info .sys::before{content:"⚡";color:var(--amber400)}
+.slider-btn{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:20px;cursor:pointer;z-index:10;backdrop-filter:blur(4px)}
+.slider-btn:hover{background:rgba(255,255,255,.2)}
+.slider-btn.prev{left:12px}
+.slider-btn.next{right:12px}
+.slider-dots{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:10}
+.slider-dots button{height:10px;border-radius:999px;border:none;cursor:pointer;background:rgba(255,255,255,.5);transition:all .3s}
+.slider-dots button.active{width:32px;background:var(--amber400)}
+.slider-dots button:not(.active){width:10px}
+
+/* STATS */
+.stats{background:var(--slate950);padding:96px 0;position:relative;overflow:hidden}
+@media(min-width:1024px){.stats{padding:128px 0}}
+.stats .glow1{position:absolute;top:0;left:0;width:400px;height:400px;background:rgba(245,158,11,.05);border-radius:50%;filter:blur(80px)}
+.stats .glow2{position:absolute;bottom:0;right:0;width:500px;height:500px;background:rgba(59,130,246,.05);border-radius:50%;filter:blur(80px)}
+.stats .head{text-align:center;margin-bottom:64px;position:relative;z-index:10}
+.stats .grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;position:relative;z-index:10}
+@media(min-width:1024px){.stats .grid{grid-template-columns:1fr 1fr 1fr;gap:48px}}
+.stat{text-align:center}
+.stat .num{font-size:clamp(36px,6vw,60px);font-weight:700;color:#fff;line-height:1}
+.stat .num .suffix{color:var(--amber400)}
+.stat .lbl{color:var(--slate400);margin-top:12px;font-size:14px;font-weight:500}
+
+/* WHY US */
+.why{background:var(--slate950);padding:96px 0}
+@media(min-width:1024px){.why{padding:128px 0}}
+.why .top{display:grid;gap:48px;align-items:center;margin-bottom:64px}
+@media(min-width:1024px){.why .top{grid-template-columns:1fr 1fr;gap:80px}}
+.why .top img{width:100%;height:500px;border-radius:16px;object-fit:cover;box-shadow:0 20px 40px rgba(0,0,0,.2)}
+@media(min-width:1024px){.why .top img{height:600px}}
+.why .top h2{font-size:clamp(30px,5vw,48px);font-weight:700;color:#fff;line-height:1.15;margin-bottom:24px}
+.why .top p{font-size:18px;color:var(--slate400);line-height:1.7}
+.why .features{display:grid;gap:32px}
+@media(min-width:640px){.why .features{grid-template-columns:1fr 1fr}}
+@media(min-width:1024px){.why .features{grid-template-columns:1fr 1fr 1fr;gap:40px}}
+.feature .icon-box{width:56px;height:56px;border-radius:16px;background:rgba(245,158,11,.1);display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-size:28px}
+.feature h3{font-size:18px;font-weight:700;color:#fff;margin-bottom:8px}
+.feature p{color:var(--slate400);line-height:1.6}
+.why .cta-row{margin-top:48px;text-align:center}
+.why .cta-row a{display:inline-flex;align-items:center;gap:8px;padding:16px 32px;border-radius:12px;background:var(--amber500);color:#fff;font-weight:600;box-shadow:0 8px 24px rgba(245,158,11,.3);transition:background .2s}
+.why .cta-row a:hover{background:var(--amber600)}
+
+/* TESTIMONIALS */
+.testi{background:var(--slate900);padding:96px 0}
+@media(min-width:1024px){.testi{padding:128px 0}}
+.testi .head{text-align:center;margin-bottom:64px}
+.testi .grid{display:grid;gap:32px;max-width:1000px;margin:0 auto}
+@media(min-width:768px){.testi .grid{grid-template-columns:1fr 1fr}}
+.testi-card{background:rgba(30,41,59,.5);border-radius:16px;padding:32px;border:1px solid rgba(255,255,255,.1)}
+.testi-card .quote{font-size:40px;color:rgba(251,191,36,.3);margin-bottom:16px;line-height:1}
+.testi-card .stars{color:var(--amber400);margin-bottom:16px;font-size:18px}
+.testi-card p{text-align:left;font-size:18px;color:var(--slate300);font-style:italic;margin-bottom:24px;line-height:1.6}
+.testi-card .name{font-weight:700;color:#fff}
+.testi-card .loc2{font-size:14px;color:var(--slate400)}
+
+/* CTA */
+.cta{position:relative;padding:128px 0;overflow:hidden}
+.cta-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cta-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(2,6,17,.95),rgba(2,6,17,.8),rgba(2,6,17,.55))}
+.cta-content{position:relative;z-index:10;max-width:640px}
+.cta-content h2{font-size:clamp(30px,5vw,48px);font-weight:700;color:#fff;line-height:1.15;margin-bottom:24px;text-shadow:0 2px 12px rgba(0,0,0,.55)}
+.cta-content p{font-size:20px;color:var(--slate100);margin-bottom:40px;max-width:560px;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.cta-btns{display:flex;flex-wrap:wrap;gap:16px}
+
+/* CONTACT */
+.contact{background:var(--slate950);padding:96px 0}
+@media(min-width:1024px){.contact{padding:128px 0}}
+.contact .grid{display:grid;gap:48px;max-width:1100px;margin:64px auto 0}
+@media(min-width:1024px){.contact .grid{grid-template-columns:3fr 2fr;gap:48px}}
+.form-group{margin-bottom:20px}
+.form-row{display:grid;gap:20px}
+@media(min-width:640px){.form-row{grid-template-columns:1fr 1fr}}
+label{display:block;font-size:14px;font-weight:500;color:var(--slate300);margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 16px;border-radius:12px;border:1px solid var(--slate700);background:var(--slate800);color:#fff;font-size:16px;font-family:inherit;transition:border .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--amber500)}
+input::placeholder,textarea::placeholder{color:var(--slate500)}
+textarea{resize:none}
+.btn-submit{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:12px;background:var(--amber500);color:#fff;font-weight:600;border:none;cursor:pointer;font-size:16px;box-shadow:0 8px 24px rgba(245,158,11,.3);transition:background .2s;font-family:inherit}
+.btn-submit:hover{background:var(--amber600)}
+.contact-info{background:linear-gradient(135deg,var(--slate900),var(--slate800));border-radius:16px;padding:32px;height:100%;display:flex;flex-direction:column}
+.contact-info h3{font-size:20px;font-weight:700;color:#fff;margin-bottom:8px}
+.contact-info .sub{font-size:14px;color:var(--slate400);margin-bottom:32px}
+.contact-info .item{display:flex;align-items:center;gap:12px;margin-bottom:20px;color:var(--slate200);font-size:14px;font-weight:500}
+.contact-info .item .ic{width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.contact-info .map{margin-top:24px;border-radius:12px;border:1px solid rgba(255,255,255,.1);flex:1;min-height:200px;width:100%}
+
+/* FOOTER */
+footer{background:var(--slate950);color:var(--slate400);padding:80px 0 32px}
+footer .grid{display:grid;gap:40px;margin-bottom:48px}
+@media(min-width:768px){footer .grid{grid-template-columns:2fr 1fr 1fr 1fr 1.5fr}}
+footer .brand{display:flex;align-items:center;gap:10px;margin-bottom:20px}
+footer .brand .ic{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--amber400),var(--amber600));display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px}
+footer .brand .txt{font-size:20px;font-weight:700;color:#fff}
+footer p.f-desc{font-size:14px;line-height:1.6}
+footer h4{color:#fff;font-weight:600;margin-bottom:20px;font-size:16px}
+footer ul{list-style:none}
+footer ul li{margin-bottom:12px}
+footer ul li a{font-size:14px;color:var(--slate400);transition:color .2s}
+footer ul li a:hover{color:var(--amber400)}
+footer .social{display:flex;gap:12px;margin-top:8px}
+footer .social a{width:36px;height:36px;border-radius:8px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;transition:background .2s}
+footer .social a:hover{background:var(--amber500)}
+footer .bottom{padding-top:32px;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:14px}
+
+/* SCROLL ANIMATIONS */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .6s,transform .6s}
+.reveal.visible{opacity:1;transform:translateY(0)}
+/* SIGNUP MODAL */
+.signup-overlay{display:none;position:fixed;inset:0;z-index:2000;align-items:center;justify-content:center;padding:16px;background:rgba(2,6,17,.8);backdrop-filter:blur(4px)}
+.signup-overlay.open{display:flex}
+.signup-modal{position:relative;width:100%;max-width:440px;max-height:90vh;overflow-y:auto;background:var(--slate900);border-radius:24px;box-shadow:0 25px 50px rgba(0,0,0,.5);border:1px solid var(--slate700);animation:signupIn .3s ease}
+@keyframes signupIn{from{opacity:0;transform:scale(.94) translateY(16px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.signup-header{background:linear-gradient(135deg,var(--slate900),var(--slate800));padding:24px;border-radius:24px 24px 0 0;position:relative;overflow:hidden}
+.signup-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.1);border:none;color:#fff;font-size:20px;cursor:pointer}
+.signup-close:hover{background:rgba(255,255,255,.2)}
+.signup-logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--amber400),var(--amber600));display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:12px}
+.signup-header h2{color:#fff;font-size:18px;font-weight:700}
+.signup-header p{color:var(--slate400);font-size:12px;margin-top:4px}
+.signup-form{padding:24px;display:flex;flex-direction:column;gap:6px}
+.signup-form label{font-size:14px;font-weight:500;color:var(--slate300);margin-bottom:4px;margin-top:8px}
+.signup-form label:first-child{margin-top:0}
+.signup-form input{width:100%;padding:12px 16px;border-radius:12px;border:1px solid var(--slate700);background:var(--slate800);color:#fff;font-size:16px;font-family:inherit}
+.signup-form input:focus{outline:none;border-color:var(--amber500)}
+.signup-form input::placeholder{color:var(--slate500)}
+.signup-foot{text-align:center;font-size:14px;color:var(--slate500);padding:0 24px}
+.signup-foot a{color:var(--amber400);font-weight:500}
+.signup-tos{text-align:center;font-size:11px;color:var(--slate500);padding:8px 24px 24px}
+.user-badge{position:fixed;bottom:24px;right:24px;z-index:1500;display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:16px;background:var(--slate900);border:1px solid rgba(245,158,11,.3);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.user-avatar{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--amber400),var(--amber600));display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:700}
+.user-info .user-name{font-size:14px;font-weight:600;color:#fff}
+.user-info .user-role{font-size:11px;color:var(--slate400)}
+.user-logout{width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.1);border:none;color:#fff;font-size:14px;cursor:pointer}
+.user-logout:hover{background:rgba(255,255,255,.2)}
+.maint-options{display:grid;gap:12px;padding:24px}
+.maint-option{display:flex;align-items:center;gap:16px;padding:16px;border-radius:14px;background:var(--slate800);border:1px solid var(--slate700);cursor:pointer;transition:all .2s}
+.maint-option:hover{border-color:var(--amber500);background:rgba(245,158,11,.05)}
+.maint-option .ic{width:48px;height:48px;border-radius:12px;background:rgba(245,158,11,.1);display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.maint-option .info h3{font-size:16px;font-weight:600;color:#fff;margin-bottom:2px}
+.maint-option .info p{font-size:13px;color:var(--slate400)}
+.maint-option .arrow{margin-left:auto;color:var(--slate500);font-size:18px}
+.maint-form{padding:24px;display:none;flex-direction:column;gap:12px}
+.maint-form.active{display:flex}
+.maint-back{display:inline-flex;align-items:center;gap:6px;color:var(--amber400);font-size:14px;font-weight:500;cursor:pointer;background:none;border:none;font-family:inherit;margin-bottom:4px}
+.maint-form h3{font-size:18px;font-weight:700;color:#fff;margin-bottom:4px}
+.maint-form p.maint-desc{font-size:14px;color:var(--slate400);margin-bottom:8px}
+.maint-form label{font-size:14px;font-weight:500;color:var(--slate300);margin-bottom:4px;margin-top:8px}
+.maint-form input,.maint-form select,.maint-form textarea{width:100%;padding:12px 16px;border-radius:12px;border:1px solid var(--slate700);background:var(--slate800);color:#fff;font-size:16px;font-family:inherit}
+.maint-form input:focus,.maint-form select:focus,.maint-form textarea:focus{outline:none;border-color:var(--amber500)}
+.maint-form input::placeholder,.maint-form textarea::placeholder{color:var(--slate500)}
+.maint-form textarea{resize:none}
+.maint-success{text-align:center;padding:40px 24px;display:none}
+.maint-success.active{display:block}
+.maint-success .check{width:64px;height:64px;margin:0 auto 16px;border-radius:50%;background:rgba(16,185,129,.15);display:flex;align-items:center;justify-content:center;font-size:32px;color:#10b981}
+.maint-success h3{font-size:18px;font-weight:700;color:#fff;margin-bottom:8px}
+.maint-success p{font-size:14px;color:var(--slate400)}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="container">
+    <a href="#home" class="logo">
+      <img class="logo-icon" src="logo.jpg" alt="Y-ENERGY logo" />
+      <span class="logo-text">Y-ENERGY</span>
+    </a>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" onclick="openLogin();return false">Members Login</a>
+      <button class="btn-quote" onclick="openSignUp()">Sign Up</button>
+      <button class="btn-quote" onclick="document.getElementById('contact').scrollIntoView()" style="margin-left:4px">Get a Quote</button>
+    </nav>
+    <button class="menu-toggle" onclick="document.getElementById('mobileMenu').classList.toggle('open')">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" onclick="openLogin();return false">Members Login</a>
+    <a href="#contact" onclick="openSignUp()">Sign Up</a>
+    <a href="#contact" onclick="document.getElementById('mobileMenu').classList.remove('open')">Get a Quote</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <img class="hero-img" src="https://base44.app/api/apps/6a61831f83c4c2da745e9c32/files/mp/public/6a61831f83c4c2da745e9c32/7e69fe720_970e85912_0f270f21-d6cb-4f12-8e0d-38a162059c7f.jpg" alt="Y-ENERGY solar panel installation" />
+  <div class="hero-overlay"></div>
+  <div class="hero-overlay2"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-badge">⚡ Premium Solar Energy Solutions</span>
+      <h1>Powering the Future with Clean Solar Energy</h1>
+      <p class="sub">We design, install, and maintain premium solar energy systems for homes, businesses, and industrial facilities across the Philippines — engineered for performance, built to last.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView()">Request a Consultation →</button>
+        <button class="btn-outline" onclick="document.getElementById('contact').scrollIntoView()">Get a Free Quote</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="grid">
+      <div class="about-img-wrap reveal">
+        <img src="https://base44.app/api/apps/6a61831f83c4c2da745e9c32/files/mp/public/6a61831f83c4c2da745e9c32/47d95f9b9_cf61626f1_a32caff2-b05e-4de4-991a-e777e6459c60.jpg" alt="Y-ENERGY solar installation team at work" />
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">About Us</span>
+        <h2>A trusted Philippine solar energy EPC company</h2>
+        <p class="sub2">High-quality solar system components</p>
+        <p>Y-ENERGY GIG-ASIA INC. is a premium solar energy solutions provider specializing in the design, installation, and maintenance of solar power systems for residential, commercial, and industrial clients. We combine engineering expertise with high-quality components to deliver reliable, high-performance solar installations.</p>
+        <p>Our mission is to accelerate the Philippines' transition to clean energy by making solar power accessible, reliable, and cost-effective for every home and business we serve.</p>
+        <div class="about-points">
+          <div class="pt">Certified solar engineers and installation teams</div>
+          <div class="pt">Premium components from trusted global manufacturers</div>
+          <div class="pt">End-to-end service from design to maintenance</div>
+          <div class="pt">Trusted by homeowners and businesses across the Philippines</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Solar Products</span>
+      <h2 class="title">Premium components for high-performance solar systems</h2>
+      <p class="lead-light">We source and integrate trusted hardware from leading global manufacturers — each chosen for performance, durability, and long-term value.</p>
+    </div>
+    <div class="grid">
+      <div class="product-card reveal"><h3>AIKO Solar Panels</h3><p>High-efficiency monocrystalline panels for maximum output and durability.</p></div>
+      <div class="product-card reveal"><h3>Solar Inverters</h3><p>Smart string and hybrid inverters with real-time performance monitoring.</p></div>
+      <div class="product-card reveal"><h3>Solar Batteries</h3><p>Lithium battery storage for backup power and energy independence.</p></div>
+      <div class="product-card reveal"><h3>Mounting Structures</h3><p>Weather-resistant mounting for rooftops, ground arrays, and industrial sites.</p></div>
+      <div class="product-card reveal"><h3>Solar Cables</h3><p>UV-resistant DC and AC cables rated for high-temperature operation.</p></div>
+      <div class="product-card reveal"><h3>Solar Accessories</h3><p>Breakers, surge protectors, connectors, and monitoring hardware.</p></div>
+    </div>
+    <div class="brands reveal">
+      <span class="eyebrow-center">Trusted Brand Partners</span>
+      <div class="row">
+        <div class="brand-box">AIKO</div>
+        <div class="brand-box">Sungrow</div>
+        <div class="brand-box">LONGi</div>
+        <div class="brand-box">Growatt</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Our Projects</span>
+      <h2 class="title">Completed solar installations across the Philippines</h2>
+      <p class="lead-light">A selection of our commissioned projects — from residential rooftops to large-scale industrial arrays.</p>
+    </div>
+    <div class="project-totals reveal">
+      <div class="total-card"><span class="icon">⚡</span><div><p class="num">12 MW</p><p class="lbl">Total Installed Capacity</p></div></div>
+      <div class="total-card"><div><p class="num">250+</p><p class="lbl">Projects Completed</p></div></div>
+    </div>
+    <div class="slider reveal" id="slider">
+      <div class="slider-track" id="sliderTrack">
+        <div class="slide active">
+          <img src="https://media.base44.com/images/public/6a61831f83c4c2da745e9c32/dfa3b5dfe_744490755_122212501976341202_367567891547584004_n1.jpg" alt="Residential Rooftop Solar System" />
+          <div class="slide-overlay"></div>
+          <div class="slide-info">
+            <div class="loc">📍 Metro Manila</div>
+            <h3>Residential Rooftop Solar System</h3>
+            <p class="desc">A custom-designed grid-tie system for a family home, engineered to offset daytime consumption and significantly reduce monthly utility bills.</p>
+            <div class="sys">5 kW Grid-Tie · 10 Panels · 6,000 kWh/yr</div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="https://media.base44.com/images/public/6a61831f83c4c2da745e9c32/aed0023a9_743270031_122212503476341202_6870571503537199055_n.jpg" alt="Commercial Rooftop Installation" />
+          <div class="slide-overlay"></div>
+          <div class="slide-info">
+            <div class="loc">📍 Cavite</div>
+            <h3>Commercial Rooftop Installation</h3>
+            <p class="desc">A medium-scale commercial solar array installed on a warehouse roof, delivering significant operational cost savings and clean energy generation.</p>
+            <div class="sys">25 kW Grid-Tie · 50 Panels · 30,000 kWh/yr</div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="https://base44.app/api/apps/6a61831f83c4c2da745e9c32/files/mp/public/6a61831f83c4c2da745e9c32/77f44b095_41432cc8f_19325432-5f1b-446b-abdb-e8ac448b59a2.jpg" alt="Industrial Solar Array" />
+          <div class="slide-overlay"></div>
+          <div class="slide-info">
+            <div class="loc">📍 Batangas</div>
+            <h3>Industrial Solar Array</h3>
+            <p class="desc">A high-capacity industrial solar installation supporting facility operations with reliable, clean energy generation and reduced carbon footprint.</p>
+            <div class="sys">100 kW Grid-Tie · 200 Panels · 120,000 kWh/yr</div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="https://media.base44.com/images/public/6a61831f83c4c2da745e9c32/7fcecdd7a_761497726_122214465074341202_621330942091320356_n.jpg" alt="Hybrid Battery Backup System" />
+          <div class="slide-overlay"></div>
+          <div class="slide-info">
+            <div class="loc">📍 Laguna</div>
+            <h3>Hybrid Battery Backup System</h3>
+            <p class="desc">A hybrid solar system with integrated battery storage, providing energy independence and seamless backup power during grid outages.</p>
+            <div class="sys">15 kW Hybrid · 30 Panels · 20 kWh Battery</div>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn prev" onclick="slidePrev()">‹</button>
+      <button class="slider-btn next" onclick="slideNext()">›</button>
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why" id="why-us">
+  <div class="container">
+    <div class="top">
+      <div class="reveal">
+        <img src="https://base44.app/api/apps/6a61831f83c4c2da745e9c32/files/mp/public/6a61831f83c4c2da745e9c32/a670f33a4_daf5801fe_7b365ca9-693e-48b3-85be-14c284f20446.jpg" alt="Y-ENERGY partnership signing ceremony with AIKO" />
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2>A partner you can trust for your solar investment</h2>
+        <p>We bring together engineering expertise, premium equipment, and dedicated service to deliver solar systems that perform reliably for decades. Our strategic partnerships with global manufacturers ensure every installation is backed by world-class technology.</p>
+      </div>
+    </div>
+    <div class="features">
+      <div class="feature reveal"><div class="icon-box">🏆</div><h3>Professional Expertise</h3><p>Certified engineers and experienced installation teams delivering every project to the highest standard.</p></div>
+      <div class="feature reveal"><div class="icon-box">🖥</div><h3>Quality Equipment</h3><p>Premium solar components from trusted global manufacturers, selected for performance and longevity.</p></div>
+      <div class="feature reveal"><div class="icon-box">🛡</div><h3>Engineering Capability</h3><p>Custom system design and structural engineering tailored to your site and energy requirements.</p></div>
+      <div class="feature reveal"><div class="icon-box">🔧</div><h3>Professional Installation</h3><p>Clean, efficient, and code-compliant installations built to withstand tropical conditions.</p></div>
+      <div class="feature reveal"><div class="icon-box">⏰</div><h3>Maintenance & Support</h3><p>Ongoing monitoring, preventive maintenance, and responsive service for the life of your system.</p></div>
+      <div class="feature reveal"><div class="icon-box">🎧</div><h3>Reliable Solar Solutions</h3><p>End-to-end service and long-term partnership you can count on for decades of clean energy.</p></div>
+    </div>
+    <div class="cta-row reveal">
+      <a href="#contact">🛟 Contact Support</a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi" id="testimonials">
+  <div class="container">
+    <div class="head reveal">
+      <span class="eyebrow-center">Testimonials</span>
+      <h2 class="title">What our customers are saying</h2>
+    </div>
+    <div class="grid">
+      <div class="testi-card reveal">
+        <div class="quote">"</div>
+        <div class="stars">★★★★★</div>
+        <p>The installation was smooth and the team explained everything clearly. Our bills dropped immediately after the system went live, and the after-sales support has been outstanding.</p>
+        <p class="name">Maria Santos</p>
+        <p class="loc2">Homeowner, Quezon City</p>
+      </div>
+      <div class="testi-card reveal">
+        <div class="quote">"</div>
+        <div class="stars">★★★★★</div>
+        <p>Excellent service and professional workmanship from start to finish. Y-ENERGY handled our commercial installation seamlessly and we are already seeing significant savings.</p>
+        <p class="name">Rene Cruz</p>
+        <p class="loc2">Business Owner, Cavite</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="cta">
+  <img class="cta-img" src="https://base44.app/api/apps/6a61831f83c4c2da745e9c32/files/mp/public/6a61831f83c4c2da745e9c32/f6c8aaeea_84b462ad3_67978629-5a31-4ea3-a889-e74d7b99895d.jpg" alt="Solar energy installation" />
+  <div class="cta-overlay"></div>
+  <div class="container">
+    <div class="cta-content reveal">
+      <span class="eyebrow" style="color:var(--amber400)">Ready to Switch</span>
+      <h2>Start saving with solar energy today</h2>
+      <p>Request a free consultation and discover how much you can save with a custom solar energy system designed for your home or business.</p>
+      <div class="cta-btns">
+        <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView()">Request a Free Quote →</button>
+        <button class="btn-outline" onclick="document.getElementById('contact').scrollIntoView()">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Get a Quote</span>
+      <h2 class="title-dark" style="color:#fff">Request your free solar quotation</h2>
+      <p class="lead-light">Fill out the form below and our team will prepare a customized solar proposal for your property.</p>
+    </div>
+    <div class="grid">
+      <form class="reveal" onsubmit="alert('Thank you! We will get back to you within 24 hours.');return false">
+        <div class="form-row">
+          <div class="form-group"><label>Full Name *</label><input type="text" required placeholder="Your name" /></div>
+          <div class="form-group"><label>Company</label><input type="text" placeholder="Company name (optional)" /></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Email *</label><input type="email" required placeholder="you@example.com" /></div>
+          <div class="form-group"><label>Phone</label><input type="tel" placeholder="+63 912 345 6789" /></div>
+        </div>
+        <div class="form-group"><label>Address</label><input type="text" placeholder="Installation address" /></div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Project Type</label>
+            <select><option value="">Select type…</option><option>Residential</option><option>Commercial</option><option>Industrial</option><option>Agricultural</option><option>Other</option></select>
+          </div>
+          <div class="form-group">
+            <label>Monthly Electric Bill</label>
+            <select><option value="">Select range…</option><option>Below ₱5,000</option><option>₱5,000 – ₱10,000</option><option>₱10,000 – ₱20,000</option><option>₱20,000 – ₱50,000</option><option>Above ₱50,000</option></select>
+          </div>
+        </div>
+        <div class="form-group"><label>Message</label><textarea rows="4" placeholder="Tell us about your energy goals and requirements"></textarea></div>
+        <div class="form-group"><label>Upload Electric Bill</label><input type="file" accept=".pdf,.jpg,.jpeg,.png" /></div>
+        <button type="submit" class="btn-submit">➤ Submit Quote Request</button>
+      </form>
+      <div class="contact-info reveal">
+        <h3>Get in Touch</h3>
+        <p class="sub">Visit our office or reach us directly.</p>
+        <div class="item"><span class="ic">📞</span> 09217327963</div>
+        <div class="item"><span class="ic">✉</span> yenergy.gig@gmail.com</div>
+        <div class="item"><span class="ic">📍</span> 339 Sen. Gil J. Puyat Ave,<br>Makati City, 1200 Metro Manila</div>
+        <a href="https://www.instagram.com/yenergy.ph/" target="_blank" style="display:flex;align-items:center;gap:12px;margin-bottom:20px;color:var(--slate200);font-size:14px;font-weight:500;text-decoration:none"><span class="ic">📷</span> @yenergy.ph on Instagram</a>
+        <iframe class="map" src="https://www.google.com/maps?q=339%20Sen.%20Gil%20J.%20Puyat%20Ave%2C%20Makati%20City%2C%201200%20Metro%20Manila&z=16&output=embed" title="Y-ENERGY location" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="brand"><img src="logo.jpg" style="width:40px;height:40px;border-radius:12px;object-fit:cover" alt="Y-ENERGY logo" /><span class="txt">Y-ENERGY</span></div>
+        <p class="f-desc">Powering communities with reliable, clean, and future-ready solar energy solutions across the Philippines.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#why-us">Residential Solar</a></li>
+          <li><a href="#why-us">Commercial Solar</a></li>
+          <li><a href="#why-us">Industrial Solar</a></li>
+          <li><a href="javascript:void(0)" onclick="openMaint();return false">Maintenance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="openPrivacy();return false">Privacy Policy</a></li>
+          <li><a href="javascript:void(0)" onclick="openTerms();return false">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p class="f-desc" style="margin-bottom:8px">09217327963</p>
+        <p class="f-desc" style="margin-bottom:8px">yenergy.gig@gmail.com</p>
+        <p class="f-desc" style="margin-bottom:16px">339 Sen. Gil J. Puyat Ave, Makati City</p>
+        <div class="social">
+          <a href="https://www.facebook.com/profile.php?id=61560236070147" target="_blank" title="Facebook">f</a>
+          <a href="https://www.instagram.com/yenergy.ph/" target="_blank" title="Instagram">📷</a>
+          <a href="#" title="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>© 2026 Y-ENERGY GIG-ASIA INC. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- SIGNUP MODAL -->
+<div class="signup-overlay" id="signupOverlay">
+  <div class="signup-modal">
+    <div class="signup-header">
+      <button class="signup-close" onclick="closeSignUp()">×</button>
+      <div class="signup-logo">⚡</div>
+      <h2>Create Your Account</h2>
+      <p>Join Y-ENERGY as a member</p>
+    </div>
+    <form class="signup-form" onsubmit="submitSignUp(event)">
+      <label>Full Name</label>
+      <input type="text" name="name" placeholder="Juan Dela Cruz" required />
+      <label>Email Address</label>
+      <input type="email" name="email" placeholder="you@example.com" required />
+      <label>Phone Number</label>
+      <input type="tel" name="phone" placeholder="+63 912 345 6789" />
+      <label>Password</label>
+      <input type="password" name="password" placeholder="••••••••" required />
+      <label>Confirm Password</label>
+      <input type="password" name="confirmPassword" placeholder="••••••••" required />
+      <button type="submit" class="btn-submit" style="width:100%;justify-content:center;margin-top:12px">Create Account</button>
+    </form>
+    <p class="signup-foot">Already have an account? <a href="#contact" onclick="closeSignUp()">Log in</a></p>
+    <p class="signup-tos">By creating an account, you agree to Y-ENERGY's Terms of Service and Privacy Policy.</p>
+  </div>
+</div>
+
+<!-- LOGIN MODAL -->
+<div class="signup-overlay" id="loginOverlay">
+  <div class="signup-modal">
+    <div class="signup-header">
+      <button class="signup-close" onclick="closeLogin()">×</button>
+      <div class="signup-logo">⚡</div>
+      <h2>Members Login</h2>
+      <p>Log in to your Y-ENERGY account</p>
+    </div>
+    <form class="signup-form" onsubmit="submitLogin(event)">
+      <label>Email Address</label>
+      <input type="email" name="email" placeholder="you@example.com" required />
+      <label>Password</label>
+      <input type="password" name="password" placeholder="••••••••" required />
+      <button type="submit" class="btn-submit" style="width:100%;justify-content:center;margin-top:12px">Log in</button>
+    </form>
+    <p class="signup-foot">Don't have an account? <a href="javascript:void(0)" onclick="closeLogin();openSignUp();return false">Create one</a></p>
+  </div>
+</div>
+
+<!-- LOGGED-IN BADGE -->
+<div class="user-badge" id="userBadge" style="display:none">
+  <div class="user-avatar" id="userAvatar">U</div>
+  <div class="user-info"><p class="user-name" id="userName">User</p><p class="user-role">Member</p></div>
+  <button class="user-logout" onclick="openMaint()" title="Maintenance" style="background:rgba(245,158,11,.2);color:var(--amber400)">🔧</button>
+  <button class="user-logout" onclick="handleLogout()" title="Logout">⏻</button>
+</div>
+
+<!-- MAINTENANCE MODAL -->
+<div class="signup-overlay" id="maintOverlay">
+  <div class="signup-modal" style="max-width:520px">
+    <div class="signup-header">
+      <button class="signup-close" onclick="closeMaint()">×</button>
+      <div class="signup-logo">🔧</div>
+      <h2>Maintenance & Service Request</h2>
+      <p>Choose a service for your solar system</p>
+    </div>
+
+    <div class="maint-options" id="maintOptions">
+      <div class="maint-option" onclick="showMaintForm('quote')">
+        <div class="ic">📋</div>
+        <div class="info"><h3>Request a Quote</h3><p>Get a price estimate for a new service</p></div>
+        <span class="arrow">›</span>
+      </div>
+      <div class="maint-option" onclick="showMaintForm('cleaning')">
+        <div class="ic">🧹</div>
+        <div class="info"><h3>Panel Cleaning</h3><p>Schedule a professional panel cleaning service</p></div>
+        <span class="arrow">›</span>
+      </div>
+      <div class="maint-option" onclick="showMaintForm('panels')">
+        <div class="ic">☀</div>
+        <div class="info"><h3>Add Solar Panels</h3><p>Request additional panels for your existing system</p></div>
+        <span class="arrow">›</span>
+      </div>
+      <div class="maint-option" onclick="showMaintForm('battery')">
+        <div class="ic">🔋</div>
+        <div class="info"><h3>Add Battery Storage</h3><p>Install or upgrade battery backup capacity</p></div>
+        <span class="arrow">›</span>
+      </div>
+      <div class="maint-option" onclick="showMaintForm('inverter')">
+        <div class="ic">⚡</div>
+        <div class="info"><h3>Add/Upgrade Inverter</h3><p>Install or upgrade your system inverter</p></div>
+        <span class="arrow">›</span>
+      </div>
+      <div class="maint-option" onclick="showMaintForm('inspection')">
+        <div class="ic">🔍</div>
+        <div class="info"><h3>System Inspection</h3><p>Request a full system health check and inspection</p></div>
+        <span class="arrow">›</span>
+      </div>
+      <div class="maint-option" onclick="showMaintForm('repair')">
+        <div class="ic">🛠</div>
+        <div class="info"><h3>Repair Service</h3><p>Report an issue and request a repair visit</p></div>
+        <span class="arrow">›</span>
+      </div>
+    </div>
+
+    <div class="maint-form" id="maintForm">
+      <button class="maint-back" onclick="backToMaintOptions()">‹ Back to options</button>
+      <h3 id="maintFormTitle">Service Request</h3>
+      <p class="maint-desc" id="maintFormDesc"></p>
+      <form onsubmit="submitMaint(event)">
+        <label>System Address</label>
+        <input type="text" name="address" placeholder="Your installation address" required />
+        <label>Preferred Date</label>
+        <input type="date" name="date" required />
+        <label>Details / Notes</label>
+        <textarea name="details" rows="3" placeholder="Describe what you need…"></textarea>
+        <label>Contact Number</label>
+        <input type="tel" name="phone" placeholder="+63 912 345 6789" required />
+        <button type="submit" class="btn-submit" style="width:100%;justify-content:center;margin-top:12px">Submit Request</button>
+      </form>
+    </div>
+
+    <div class="maint-success" id="maintSuccess">
+      <div class="check">✓</div>
+      <h3>Request Submitted!</h3>
+      <p id="maintSuccessMsg">We will contact you within 24 hours to confirm your service appointment.</p>
+      <button class="btn-submit" style="margin-top:16px" onclick="closeMaint()">Done</button>
+    </div>
+  </div>
+</div>
+
+<!-- PRIVACY MODAL -->
+<div class="signup-overlay" id="privacyOverlay">
+  <div class="signup-modal" style="max-width:600px">
+    <div class="signup-header">
+      <button class="signup-close" onclick="closePrivacy()">×</button>
+      <div class="signup-logo">🛡</div>
+      <h2>Privacy Policy</h2>
+      <p>How Y-Energy handles your personal information</p>
+    </div>
+    <div style="padding:24px;max-height:60vh;overflow-y:auto">
+      <p style="color:var(--slate300);font-size:15px;line-height:1.8;margin-bottom:16px">
+        This Privacy Policy governs the collection, use, processing, storage, and protection of personal information submitted through the official Y-Energy website.
+      </p>
+      <p style="color:var(--slate300);font-size:15px;line-height:1.8">
+        Y-Energy is committed to protecting customer privacy and handling personal information responsibly in accordance with the Philippine Data Privacy Act of 2012 (Republic Act No. 10173).
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- TERMS MODAL -->
+<div class="signup-overlay" id="termsOverlay">
+  <div class="signup-modal" style="max-width:600px">
+    <div class="signup-header">
+      <button class="signup-close" onclick="closeTerms()">×</button>
+      <div class="signup-logo">📄</div>
+      <h2>Terms of Service</h2>
+      <p>Terms governing use of Y-Energy website and services</p>
+    </div>
+    <div style="padding:24px;max-height:60vh;overflow-y:auto">
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px;margin-top:16px">1. Acceptance of Terms</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Welcome to Y-Energy.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">These Terms of Service govern your access to and use of the official Y-Energy website and its services.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">By accessing our website, submitting an inquiry, requesting a quotation, or using any of our services, you agree to comply with these Terms of Service.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">If you do not agree with these terms, please discontinue using our website.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">2. About Our Services</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Y-Energy provides solar energy solutions and related services, which may include:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:16px;padding-left:20px;list-style:disc">
+        <li>Solar panel system installation.</li>
+        <li>Solar energy consultation.</li>
+        <li>Solar system design and assessment.</li>
+        <li>Solar inverter and battery solutions.</li>
+        <li>Grid-tied and hybrid solar systems.</li>
+        <li>Solar energy quotations and proposals.</li>
+        <li>Site inspections and technical assessments.</li>
+        <li>Solar system maintenance and related support services.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">The availability of specific services may depend on the customer's location, property conditions, technical requirements, and project specifications.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">3. Website Usage</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Users agree to use the Y-Energy website responsibly and for legitimate purposes.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">You agree not to:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:8px;padding-left:20px;list-style:disc">
+        <li>Submit false, misleading, or inaccurate information.</li>
+        <li>Upload malicious files or harmful content.</li>
+        <li>Attempt unauthorized access to website systems or accounts.</li>
+        <li>Interfere with website functionality or security.</li>
+        <li>Use the website for fraudulent or unlawful activities.</li>
+        <li>Copy, reproduce, or misuse website content without authorization.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">Y-Energy reserves the right to restrict access to users who violate these terms.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">4. Customer Information and Submissions</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Customers may be asked to provide personal and property-related information when requesting solar consultations or quotations. This may include:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:8px;padding-left:20px;list-style:disc">
+        <li>Full name and contact information.</li>
+        <li>Installation address.</li>
+        <li>Electricity consumption details.</li>
+        <li>Meralco or other electricity bills.</li>
+        <li>Property photographs.</li>
+        <li>Preferred solar system configuration.</li>
+        <li>Other information necessary for technical assessment.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Customers are responsible for ensuring that the information and documents they submit are accurate and authorized for submission.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">The collection and processing of personal information are governed by our Privacy Policy.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px;margin-top:16px">5. Solar Quotations and Pricing</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">All solar quotations and proposals provided by Y-Energy are based on the information available at the time of assessment. Final pricing may vary depending on:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:8px;padding-left:20px;list-style:disc">
+        <li>Actual electricity consumption.</li>
+        <li>Property and roof conditions.</li>
+        <li>Required solar panel capacity.</li>
+        <li>Inverter and battery specifications.</li>
+        <li>Installation requirements.</li>
+        <li>Material availability.</li>
+        <li>Additional electrical or structural work.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">An initial quotation or estimated price does not automatically constitute a final installation agreement.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">Final project pricing, payment arrangements, equipment specifications, and installation schedules will be confirmed through an approved proposal or separate written agreement.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">6. Site Inspection and Technical Assessment</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Y-Energy may conduct site inspections to evaluate the suitability of a property for solar installation. Technical assessments may consider:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:8px;padding-left:20px;list-style:disc">
+        <li>Roof condition and available installation space.</li>
+        <li>Sunlight exposure and shading.</li>
+        <li>Electrical system configuration.</li>
+        <li>Single-phase or three-phase electrical connections.</li>
+        <li>Existing electrical infrastructure.</li>
+        <li>Safety and installation requirements.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">Final system recommendations will be subject to actual site conditions and technical evaluation.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px;margin-top:16px">7. Installation and Project Timelines</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Installation schedules and project completion dates are estimates and may be affected by circumstances beyond our reasonable control, including:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:8px;padding-left:20px;list-style:disc">
+        <li>Weather conditions.</li>
+        <li>Material and equipment availability.</li>
+        <li>Site readiness.</li>
+        <li>Required permits and approvals.</li>
+        <li>Utility coordination.</li>
+        <li>Unexpected technical or construction issues.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">Y-Energy will make reasonable efforts to communicate significant project updates and schedule adjustments to customers.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">8. Payments and Financing</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Payment terms, down payments, installment arrangements, financing options, and other financial obligations will be specified in the customer's approved quotation, proposal, or separate agreement.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Customers are responsible for reviewing and understanding all applicable payment conditions before confirming a project.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">No payment obligation or financing arrangement will be established solely by browsing this website or submitting an initial inquiry.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">9. Equipment, Warranties, and After-Sales Support</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Solar panels, inverters, batteries, and other equipment may be subject to manufacturer warranties and applicable service conditions.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">Warranty coverage, duration, exclusions, and claims procedures will be determined by the relevant manufacturer warranty documents and the customer's project agreement.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:16px">Y-Energy will provide applicable after-sales assistance in accordance with the agreed service arrangements.</p>
+      <h3 style="color:#fff;font-size:16px;font-weight:600;margin-bottom:8px">10. Intellectual Property Rights</h3>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">All website content, including but not limited to:</p>
+      <ul style="color:var(--slate400);font-size:14px;line-height:1.8;margin-bottom:8px;padding-left:20px;list-style:disc">
+        <li>Company logos and branding.</li>
+        <li>Text and written materials.</li>
+        <li>Images and graphics.</li>
+        <li>Website layouts and designs.</li>
+        <li>Marketing materials.</li>
+        <li>Original website content.</li>
+      </ul>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7;margin-bottom:8px">are owned by or used under authorization by Y-Energy and are protected by applicable intellectual property laws.</p>
+      <p style="color:var(--slate400);font-size:14px;line-height:1.7">Unauthorized reproduction, distribution, modification, or commercial use of these materials is prohibited without prior written permission.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+// Header scroll effect
+window.addEventListener('scroll',function(){
+  var h=document.getElementById('header');
+  if(window.scrollY>20)h.classList.add('scrolled');
+  else h.classList.remove('scrolled');
+});
+
+// Project slider
+var slides=document.querySelectorAll('.slide');
+var dotsContainer=document.getElementById('sliderDots');
+var current=0;
+var slideTimer=null;
+for(var i=0;i<slides.length;i++){
+  (function(i){
+    var b=document.createElement('button');
+    if(i===0)b.classList.add('active');
+    b.onclick=function(){goTo(i)};
+    dotsContainer.appendChild(b);
+  })(i);
+}
+var dots=dotsContainer.querySelectorAll('button');
+function goTo(i){
+  slides[current].classList.remove('active');
+  dots[current].classList.remove('active');
+  current=((i%slides.length)+slides.length)%slides.length;
+  slides[current].classList.add('active');
+  dots[current].classList.add('active');
+}
+function slideNext(){goTo(current+1)}
+function slidePrev(){goTo(current-1)}
+function startTimer(){
+  if(slideTimer)clearInterval(slideTimer);
+  slideTimer=setInterval(function(){goTo(current+1)},4000);
+}
+startTimer();
+var slider=document.getElementById('slider');
+slider.addEventListener('mouseenter',function(){if(slideTimer)clearInterval(slideTimer)});
+slider.addEventListener('mouseleave',startTimer);
+
+// Scroll reveal animations
+var revealObserver=new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(function(el){revealObserver.observe(el)});
+
+// Signup modal
+function openSignUp(){
+  document.getElementById('signupOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeSignUp(){
+  document.getElementById('signupOverlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+function submitSignUp(e){
+  e.preventDefault();
+  var f=e.target;
+  var pw=f.password.value;
+  var cpw=f.confirmPassword.value;
+  if(pw.length<6){alert('Password must be at least 6 characters.');return false}
+  if(pw!==cpw){alert('Passwords do not match.');return false}
+  var users=[];
+  try{users=JSON.parse(localStorage.getItem('y-energy-users')||'[]')}catch(ex){users=[]}
+  if(users.find(function(u){return u.email===f.email.value})){
+    alert('An account with this email already exists. Please log in instead.');
+    closeSignUp();
+    openLogin();
+    return false;
+  }
+  users.push({name:f.name.value,email:f.email.value,phone:f.phone.value,password:pw});
+  localStorage.setItem('y-energy-users',JSON.stringify(users));
+  alert('Account created successfully! You can now log in with your email and password.');
+  closeSignUp();
+  f.reset();
+  openLogin();
+  return false;
+}
+function openLogin(){
+  document.getElementById('loginOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeLogin(){
+  document.getElementById('loginOverlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+function submitLogin(e){
+  e.preventDefault();
+  var f=e.target;
+  var email=f.email.value;
+  var pw=f.password.value;
+  var users=[];
+  try{users=JSON.parse(localStorage.getItem('y-energy-users')||'[]')}catch(ex){users=[]}
+  var found=users.find(function(u){return u.email===email&&u.password===pw});
+  if(found){
+    localStorage.setItem('y-energy-user',JSON.stringify({name:found.name,email:found.email,phone:found.phone}));
+    showUserBadge(found.name);
+    closeLogin();
+    f.reset();
+  }else{
+    alert('Invalid email or password. Please sign up first.');
+  }
+  return false;
+}
+function showUserBadge(name){
+  var badge=document.getElementById('userBadge');
+  document.getElementById('userName').textContent=name;
+  document.getElementById('userAvatar').textContent=name.charAt(0).toUpperCase();
+  badge.style.display='flex';
+}
+function handleLogout(){
+  localStorage.removeItem('y-energy-user');
+  document.getElementById('userBadge').style.display='none';
+}
+(function(){
+  var stored=localStorage.getItem('y-energy-user');
+  if(stored){
+    try{
+      var u=JSON.parse(stored);
+      showUserBadge(u.name);
+    }catch(ex){}
+  }
+})();
+document.getElementById('loginOverlay').addEventListener('click',function(e){
+  if(e.target===this)closeLogin();
+});
+document.getElementById('signupOverlay').addEventListener('click',function(e){
+  if(e.target===this)closeSignUp();
+});
+
+// Maintenance modal (member-only)
+var maintServiceTitles={
+  quote:['Request a Quote','Get a price estimate for a new service or expansion.'],
+  cleaning:['Panel Cleaning Service','Schedule a professional cleaning to maximize your panel efficiency.'],
+  panels:['Add Solar Panels','Request additional panels to expand your existing system capacity.'],
+  battery:['Add Battery Storage','Install or upgrade battery backup for energy independence.'],
+  inverter:['Add/Upgrade Inverter','Install or upgrade your system inverter for better performance.'],
+  inspection:['System Inspection','Request a full health check and inspection of your solar system.'],
+  repair:['Repair Service','Report an issue and request a technician repair visit.']
+};
+var currentMaintService='';
+function openMaint(){
+  var user=localStorage.getItem('y-energy-user');
+  if(!user){
+    alert('Please sign up or log in as a member to access maintenance services.');
+    openLogin();
+    return;
+  }
+  document.getElementById('maintOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+  backToMaintOptions();
+}
+function closeMaint(){
+  document.getElementById('maintOverlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+function showMaintForm(type){
+  currentMaintService=type;
+  var info=maintServiceTitles[type]||['Service Request',''];
+  document.getElementById('maintFormTitle').textContent=info[0];
+  document.getElementById('maintFormDesc').textContent=info[1];
+  document.getElementById('maintOptions').style.display='none';
+  document.getElementById('maintSuccess').classList.remove('active');
+  document.getElementById('maintForm').classList.add('active');
+}
+function backToMaintOptions(){
+  document.getElementById('maintForm').classList.remove('active');
+  document.getElementById('maintSuccess').classList.remove('active');
+  document.getElementById('maintOptions').style.display='grid';
+}
+function submitMaint(e){
+  e.preventDefault();
+  var f=e.target;
+  var user=JSON.parse(localStorage.getItem('y-energy-user')||'{}');
+  var requests=[];
+  try{requests=JSON.parse(localStorage.getItem('y-energy-requests')||'[]')}catch(ex){requests=[]}
+  requests.push({
+    service:currentMaintService,
+    title:(maintServiceTitles[currentMaintService]||['Unknown'])[0],
+    address:f.address.value,
+    date:f.date.value,
+    details:f.details.value,
+    phone:f.phone.value,
+    member:user.name||'Unknown',
+    email:user.email||'Unknown',
+    submitted:new Date().toISOString()
+  });
+  localStorage.setItem('y-energy-requests',JSON.stringify(requests));
+  document.getElementById('maintForm').classList.remove('active');
+  document.getElementById('maintSuccess').classList.add('active');
+  f.reset();
+  return false;
+}
+document.getElementById('maintOverlay').addEventListener('click',function(e){
+  if(e.target===this)closeMaint();
+});
+
+// Privacy modal
+function openPrivacy(){
+  document.getElementById('privacyOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closePrivacy(){
+  document.getElementById('privacyOverlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.getElementById('privacyOverlay').addEventListener('click',function(e){
+  if(e.target===this)closePrivacy();
+});
+
+// Terms modal
+function openTerms(){
+  document.getElementById('termsOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeTerms(){
+  document.getElementById('termsOverlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.getElementById('termsOverlay').addEventListener('click',function(e){
+  if(e.target===this)closeTerms();
+});
+</script>
+</body>
+</html>
